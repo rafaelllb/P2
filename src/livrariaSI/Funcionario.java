@@ -1,10 +1,8 @@
 package livrariaSI;
 
-public class Funcionario {
+public class Funcionario extends Usuario{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	
+	
 
 }

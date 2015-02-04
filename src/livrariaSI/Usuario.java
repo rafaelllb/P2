@@ -1,10 +1,29 @@
 package livrariaSI;
 
-public class Usuario {
+abstract class Usuario {
 	
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	private int cpf;
+	private StringBuffer nome;
+	private int tipo;
+	
+	public int getCpf() {
+		return cpf;
 	}
-	
+	public void setCpf(int cpf) {
+		this.cpf = cpf;
+	}
+	public StringBuffer getNome() {
+		return nome;
+	}
+	public void setNome(StringBuffer nome) {
+		this.nome = nome;
+	}
+	public int getTipo() {
+		return tipo;
+	}
+	public void setTipo(int tipo) {
+		this.tipo = tipo;
+	}
+
+
 }
